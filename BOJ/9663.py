@@ -11,7 +11,6 @@ def check_board(idx):
 
 def set_queen(idx):
   global cnt
-
   if idx == n:
     cnt += 1
     return
