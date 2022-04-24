@@ -6,7 +6,6 @@ while True:
     break
 
   if b % a == 0: 
-    print(b // a)
     print("factor")
   elif a % b == 0:
     print("multiple")
